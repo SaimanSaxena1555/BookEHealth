@@ -18,16 +18,6 @@ function Header() {
           label: "Home", 
           ariaLabel: "Go to Home page",
           onClick: () => navigate('/')
-        },
-        { 
-          label: "About Us", 
-          ariaLabel: "Learn about BOOKeHealth",
-          onClick: () => navigate('/about')
-        },
-        { 
-          label: "Testimonials", 
-          ariaLabel: "Read patient testimonials",
-          onClick: () => navigate('/testimonials')
         }
       ]
     },
@@ -40,16 +30,6 @@ function Header() {
           label: "Browse Doctors", 
           ariaLabel: "Browse all doctors",
           onClick: () => navigate('/doctors')
-        },
-        { 
-          label: "Specialists", 
-          ariaLabel: "View medical specialists",
-          onClick: () => navigate('/doctors/specialists')
-        },
-        { 
-          label: "Schedule", 
-          ariaLabel: "View doctor schedules",
-          onClick: () => navigate('/doctors/schedule')
         }
       ]
     },
@@ -62,16 +42,6 @@ function Header() {
           label: "Book Appointment", 
           ariaLabel: "Book a new appointment",
           onClick: () => navigate('/book-appointment')
-        },
-        { 
-          label: "My Appointments", 
-          ariaLabel: "View my appointments",
-          onClick: () => navigate('/appointments')
-        },
-        { 
-          label: "Reschedule", 
-          ariaLabel: "Reschedule appointment",
-          onClick: () => navigate('/reschedule')
         }
       ]
     },
@@ -84,16 +54,6 @@ function Header() {
           label: "All Services", 
           ariaLabel: "View all services",
           onClick: () => navigate('/services')
-        },
-        { 
-          label: "Specialized Care", 
-          ariaLabel: "Specialized medical care",
-          onClick: () => navigate('/services/specialized')
-        },
-        { 
-          label: "Emergency", 
-          ariaLabel: "Emergency services",
-          onClick: () => navigate('/emergency')
         }
       ]
     },
@@ -106,16 +66,6 @@ function Header() {
           label: "Contact Us", 
           ariaLabel: "Contact our team",
           onClick: () => navigate('/contact')
-        },
-        { 
-          label: "Support", 
-          ariaLabel: "Get support",
-          onClick: () => navigate('/support')
-        },
-        { 
-          label: "FAQ", 
-          ariaLabel: "Frequently asked questions",
-          onClick: () => navigate('/faq')
         }
       ]
     }
