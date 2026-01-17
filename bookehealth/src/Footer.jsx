@@ -52,8 +52,8 @@ function Footer() {
         <section className="footer-contact">
           <h4>Contact Us</h4>
           <ul>
-            <li>📍 123 Health Street, Medical City</li>
-            <li>📞 +1 (555) 123-4567</li>
+            <li>📍 123 Health Street, Mumbai City</li>
+            <li>📞 +91 89452-15155s</li>
             <li>✉️ support@bookehealth.com</li>
             <li>🕒 24/7 Emergency Support</li>
           </ul>
